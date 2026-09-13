@@ -1,91 +1,228 @@
-EazyWed: Where Elegance Meets Joy
-EazyWed is a comprehensive wedding planning platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It simplifies the wedding planning process by providing tools for vendor booking, budget management, digital invitations, and personalized recommendations, making it easier for users to plan their special day with elegance and joy.
-Team Members
+# Wedding Project
 
-M. Hammad Ur Rehman (L1F21BSCS0021)
-Amir Sohail (L1F21BSCS0999)
-Rana M. Umar Nazir (L1F21BSCS0196)
+## Overview
 
-Features and Sub-Features
-1. Vendor Booking and Management
+**Wedding Project** is a complete wedding planning and management platform developed using the **MERN stack (MongoDB, Express.js, React.js, and Node.js)**. The platform is designed to make wedding preparation more organized and convenient by bringing important planning activities into one system.
 
-Vendor Search and Filtering: Browse vendors by category, location, price, and ratings using intuitive search and filter tools.
-Vendor Comparison: Compare vendor services, pricing, and reviews side-by-side to make informed decisions.
-Booking System: Securely book vendors directly through the platform with integrated payment options.
-Vendor Communication: Communicate with vendors via in-app messaging for seamless coordination.
+Users can explore and book wedding vendors, manage their wedding budget, create personalized digital invitations, receive recommendations, and get assistance through an AI-powered chatbot. The system also provides separate functionality for vendors and administrators to help manage services and platform activities.
 
-2. Personalized Recommendations
+## Team Members
 
-AI-Driven Suggestions: Receive vendor recommendations tailored to user preferences, budget, and location using a recommendation engine.
-Preference-Based Matching: Input wedding style, theme, and requirements to get curated vendor lists.
-Dynamic Updates: Recommendations adapt as users update their preferences or budget.
+* **Muneeb Ahmed** — B22110006129
+* **Muhammad Sannan** — B22110006114
+* **Hamza Rizvi** — B22110006154
+* **Fatima Adnan** — B22110006040
 
-3. Real-Time Budget Tracking
+---
 
-Budget Planner: Set and manage a wedding budget with categorized expense tracking (e.g., venue, catering, decor).
-Real-Time Updates: Automatically update the budget as bookings are made or expenses are added.
-Cost Estimation: View estimated costs for services based on vendor quotes and user selections.
-Alerts and Insights: Receive alerts for overspending and insights for cost-saving opportunities.
+# Features and Sub-Features
 
-4. Customizable Digital Invitations
+## 1. Vendor Booking and Management
 
-Template Library: Choose from a variety of customizable wedding invitation templates.
-Card Editor: Use a drag-and-drop editor to personalize text, images, and design elements.
-Digital Delivery: Send invitations via email or WhatsApp with RSVP tracking.
-Preview and Share: Preview designs in real-time and share with guests seamlessly.
+The platform allows users to discover and manage wedding-related vendors according to their requirements.
 
-5. User and Vendor Profiles
+### Vendor Search and Filtering
 
-User Profiles: Manage wedding plans, track bookings, and save favorite vendors in a personalized dashboard.
-Vendor Profiles: Showcase services, portfolios, pricing, and availability for potential clients.
-Profile Customization: Update profile details, including photos, descriptions, and contact information.
-Verification System: Ensure trust with verified vendor profiles and user accounts.
+Users can browse different vendor categories and narrow their search using options such as location, price, ratings, and other available criteria.
 
-6. Feedback and Review System
+### Vendor Comparison
 
-Vendor Reviews: Rate and write reviews for vendors based on service quality and experience.
-Review Moderation: Admin-moderated reviews to ensure authenticity and relevance.
-Rating System: View aggregated vendor ratings to aid decision-making.
-Feedback Loop: Vendors can respond to reviews to address concerns or thank clients.
+Users can compare different vendors by looking at their services, pricing, ratings, and reviews before making a decision.
 
-7. AI-Customized Chatbot Assistance
+### Booking System
 
-24/7 Support: Access an AI-powered chatbot for instant assistance with platform navigation and queries.
-Personalized Guidance: Get tailored advice on vendor selection, budget planning, and invitation design.
-FAQ Integration: Quickly resolve common questions with pre-programmed responses.
-Vendor Inquiry Support: Facilitate communication by drafting messages or queries to vendors.
+Users can book selected vendors through the platform, making it easier to organize different wedding services in one place.
 
-Technology Stack
+### Vendor Communication
 
-MongoDB: NoSQL database for storing application data.
-Express.js: Web framework for building the backend API.
-React.js: JavaScript library for building the user interface.
-Node.js: JavaScript runtime for the backend server.
+Users can communicate with vendors through the platform to discuss requirements, services, and other booking-related details.
 
-Installation and Setup
-To set up EazyWed locally, follow these steps:
-Prerequisites
+---
 
-Node.js: Version 14.x or higher recommended.
-MongoDB: Locally installed or a cloud instance like MongoDB Atlas.
-Git: For cloning the repository.
+## 2. Personalized Recommendations
 
-Cloning the Repository
-Clone the EazyWed repository from GitHub:
+The system provides recommendations based on the user's wedding requirements and preferences.
+
+### AI-Based Suggestions
+
+The recommendation functionality can suggest suitable vendors based on factors such as the user's preferences, budget, and location.
+
+### Preference-Based Matching
+
+Users can provide information about their wedding style, theme, and requirements to receive more relevant vendor suggestions.
+
+### Dynamic Recommendations
+
+Recommendations can change when users modify their preferences, requirements, or budget.
+
+---
+
+## 3. Real-Time Budget Tracking
+
+The budget management functionality helps users keep track of their wedding expenses and stay within their planned budget.
+
+### Budget Planner
+
+Users can set an overall wedding budget and organize expenses into different categories such as venue, catering, decoration, and other services.
+
+### Real-Time Updates
+
+The budget information can be updated as users make bookings or add new expenses.
+
+### Cost Estimation
+
+Users can view expected costs for different services based on vendor pricing and their selected requirements.
+
+### Alerts and Insights
+
+The system can provide useful alerts when spending increases or approaches the planned budget, helping users identify areas where they can reduce expenses.
+
+---
+
+## 4. Customizable Digital Invitations
+
+Users can create and personalize digital wedding invitations through the platform.
+
+### Template Library
+
+Users can select from available wedding invitation designs and templates.
+
+### Invitation Editor
+
+The invitation can be customized by modifying text, images, and other available design elements.
+
+### Digital Delivery
+
+Completed invitations can be shared digitally through available communication methods, including email or WhatsApp, with RSVP tracking functionality.
+
+### Preview and Sharing
+
+Users can preview their invitation before sharing it with their guests.
+
+---
+
+## 5. User and Vendor Profiles
+
+The platform provides dedicated profiles for both users and wedding vendors.
+
+### User Profiles
+
+Users can manage their wedding information, bookings, preferred vendors, and other planning-related information from their dashboard.
+
+### Vendor Profiles
+
+Vendors can display their services, portfolios, pricing information, availability, and other relevant details.
+
+### Profile Customization
+
+Users and vendors can update information such as profile details, images, descriptions, and contact information.
+
+### Verification System
+
+The platform includes verification functionality to improve trust between users and vendors.
+
+---
+
+## 6. Feedback and Review System
+
+A review and rating system allows users to provide feedback about vendors they have interacted with.
+
+### Vendor Reviews
+
+Users can rate vendors and write reviews based on their experience and the quality of services provided.
+
+### Review Moderation
+
+Reviews can be managed and moderated through the administration functionality to maintain relevant and appropriate feedback.
+
+### Rating System
+
+Vendor ratings are displayed to help users evaluate different service providers.
+
+### Vendor Responses
+
+Vendors can respond to customer reviews, allowing them to address concerns or respond to positive feedback.
+
+---
+
+## 7. AI-Customized Chatbot Assistance
+
+The platform includes an AI-powered chatbot that assists users while using the wedding planning system.
+
+### 24/7 Assistance
+
+Users can interact with the chatbot to receive immediate assistance with common platform-related questions.
+
+### Personalized Guidance
+
+The chatbot can provide guidance related to vendor selection, wedding budgets, invitation creation, and other planning activities.
+
+### FAQ Support
+
+Frequently asked questions can be handled through predefined responses and chatbot assistance.
+
+### Vendor Inquiry Support
+
+The chatbot can also help users prepare inquiries or messages that can be sent to wedding vendors.
+
+---
+
+# Technology Stack
+
+The Wedding Project is developed using the following technologies:
+
+* **MongoDB** — NoSQL database used to store application and user-related data.
+* **Express.js** — Backend web framework used to create APIs and server-side functionality.
+* **React.js** — Frontend JavaScript library used to build the user interface.
+* **Node.js** — JavaScript runtime used for running the backend server.
+
+---
+
+# Installation and Setup
+
+Follow the steps below to run the Wedding Project on a local machine.
+
+## Prerequisites
+
+Before starting the project, make sure the following are installed:
+
+* **Node.js** — Version 14.x or higher is recommended.
+* **MongoDB** — A local MongoDB installation or a cloud database such as MongoDB Atlas.
+* **Git** — Required for cloning the project repository.
+
+---
+
+# Cloning the Repository
+
+Clone the project repository and move into the project directory:
+
+```bash
 git clone https://github.com/web-codings123/EazyWed.git
 cd EazyWed
+```
 
-Backend Setup
+---
 
-Navigate to the backend directory:cd backend
+# Backend Setup
 
+Navigate to the backend folder:
 
-Install backend dependencies:npm install
+```bash
+cd backend
+```
 
+Install the required dependencies:
 
-Set up environment variables:
-Create a .env file in the backend directory.
-Add the following variables (replace with your own values):PORT=5000
+```bash
+npm install
+```
+
+## Environment Variables
+
+Create a `.env` file inside the `backend` directory and add the required configuration values:
+
+```env
+PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
@@ -94,83 +231,196 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=your_twilio_phone_number
+```
 
+Start the backend server:
 
+```bash
+npm start
+```
 
+The backend will normally be available at:
 
-Start the backend server:npm start
+```text
+http://localhost:5000
+```
 
-The backend server will run on http://localhost:5000 (or the port specified in .env).
+The actual port may differ if another port is specified in the `.env` file.
 
-Frontend Setup
+---
 
-Navigate to the frontend directory:cd ../eazywed
+# Frontend Setup
 
+Open another terminal and navigate to the frontend directory:
 
-Install frontend dependencies:npm install
+```bash
+cd ../eazywed
+```
 
+Install the frontend dependencies:
 
-Set up environment variables:
-Create a .env file in the eazywed directory.
-Add the following variable:VITE_API_URL=http://localhost:5000
+```bash
+npm install
+```
 
+Create a `.env` file inside the `eazywed` directory and add:
 
+```env
+VITE_API_URL=http://localhost:5000
+```
 
+Start the frontend development server:
 
-Start the frontend development server:npm run dev
+```bash
+npm run dev
+```
 
-The frontend will run on http://localhost:5173 (or the port assigned by Vite).
+The frontend will normally be available at:
 
-Importing the Project into Your IDE
+```text
+http://localhost:5173
+```
 
-Open your preferred IDE (e.g., VS Code).
-Use the "Open Folder" option and select the EazyWed directory.
-Ensure you have the necessary extensions installed (e.g., ESLint, Prettier for JavaScript/React development).
+---
 
-Running Both Servers
-To run both the backend and frontend servers simultaneously:
+# Importing the Project into an IDE
 
-Open two terminal windows.
-In the first terminal, navigate to EazyWed/backend and run:npm start
+To work on the project using an IDE such as **Visual Studio Code**:
 
+1. Open your preferred IDE.
+2. Select **Open Folder**.
+3. Select the **Wedding Project** directory.
+4. Make sure the required development extensions are installed.
+5. Recommended extensions include:
 
-In the second terminal, navigate to EazyWed/eazywed and run:npm run dev
+   * ESLint
+   * Prettier
+   * JavaScript/React development extensions
 
+---
 
+# Running the Frontend and Backend
 
-Alternatively, use concurrently to run both servers with a single command:
+The frontend and backend need to run simultaneously.
 
-Install concurrently globally (or add it to your project):npm install -g concurrently
+### Terminal 1 — Backend
 
+Navigate to:
 
-From the root EazyWed directory, run:concurrently "cd backend && npm start" "cd eazywed && npm run dev"
+```bash
+EazyWed/backend
+```
 
+Then run:
 
+```bash
+npm start
+```
 
-Usage
+### Terminal 2 — Frontend
 
-Open your browser and navigate to http://localhost:5173 to access the EazyWed frontend.
-Register as a user or vendor to explore features like booking vendors, creating digital invitations, or managing budgets.
-Admin features are accessible via the admin dashboard (requires admin credentials).
-Use the AI-customized chatbot (available on the platform) for assistance with navigation, vendor selection, or general queries.
+Navigate to:
 
-Contributing
-Contributions are welcome! To contribute:
+```bash
+EazyWed/eazywed
+```
 
-Fork the repository:git fork https://github.com/web-codings123/EazyWed.git
+Then run:
 
+```bash
+npm run dev
+```
 
-Create a new branch:git checkout -b feature/your-feature-name
+After both servers have started, open the frontend in your browser:
 
+```text
+http://localhost:5173
+```
 
-Make your changes and commit them:git commit -m "Add your feature description"
+---
 
+# Running Both Servers Using Concurrently
 
-Push to your branch:git push origin feature/your-feature-name
+Alternatively, both servers can be started using `concurrently`.
 
+Install it globally:
 
-Open a pull request on the GitHub repository.
+```bash
+npm install -g concurrently
+```
 
-If you encounter issues or have suggestions, please open an issue on the GitHub repository.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+From the root project directory, run:
+
+```bash
+concurrently "cd backend && npm start" "cd eazywed && npm run dev"
+```
+
+This allows the frontend and backend development servers to run at the same time from a single terminal.
+
+---
+
+# Usage
+
+After successfully starting the project:
+
+1. Open a browser.
+2. Navigate to:
+
+```text
+http://localhost:5173
+```
+
+3. Register or log in as a user or vendor.
+4. Explore available wedding vendors and services.
+5. Use the vendor booking functionality.
+6. Manage wedding expenses through the budget planner.
+7. Create and customize digital wedding invitations.
+8. Use the recommendation features to explore suitable vendors.
+9. Interact with the AI chatbot for assistance.
+10. Administrators can access the relevant administration features using authorized admin credentials.
+
+---
+
+# Contributing
+
+Contributions and improvements to the project are welcome.
+
+To contribute:
+
+### 1. Fork the Repository
+
+Create your own fork of the project repository.
+
+### 2. Create a New Branch
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+### 3. Make Your Changes
+
+Implement and test the required changes.
+
+### 4. Commit Your Changes
+
+```bash
+git commit -m "Add your feature description"
+```
+
+### 5. Push the Branch
+
+```bash
+git push origin feature/your-feature-name
+```
+
+### 6. Create a Pull Request
+
+Open a pull request so the changes can be reviewed and merged.
+
+If you encounter any problems or have suggestions regarding the project, an issue can be opened in the repository.
+
+---
+
+# License
+
+This project is licensed under the **MIT License**. Please refer to the `LICENSE` file included in the project for more information.
